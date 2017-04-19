@@ -1,5 +1,8 @@
 "*":
   core:
+    packagesWithKeymapsDisabled: [
+      "markdown-preview"
+    ]
     telemetryConsent: "limited"
   editor:
     fontSize: 18
@@ -8,6 +11,7 @@
   "linter-ui-default":
     showPanel: true
   "markdown-preview-enhanced":
+    enableZenMode: true
     previewTheme: "atom-dark-syntax"
   "package-sync":
     createOnChange: true

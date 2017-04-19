@@ -9,3 +9,8 @@
 # atom.workspace.observeTextEditors (editor) ->
 #   editor.onDidSave ->
 #     console.log "Saved! #{editor.getPath()}"
+
+atom.commands.add 'atom-text-editor', 'custom:add-code-newline', ->
+  editor = atom.workspace.getActiveTextEditor()
+  editor.insertText(" {16G1}\n")
+  

@@ -33,3 +33,6 @@
 
 '.editor':
   'ctrl-cmd-w': 'editor:toggle-soft-wrap'
+
+'atom-text-editor':
+  'ctrl-enter': 'custom:add-code-newline'
