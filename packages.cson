@@ -1,0 +1,16 @@
+packages: [
+  "build"
+  "build-make"
+  "busy"
+  "busy-signal"
+  "intentions"
+  "language-latex"
+  "linter"
+  "linter-chktex"
+  "linter-ui-default"
+  "markdown-preview-enhanced"
+  "package-sync"
+  "script"
+  "terminal-plus"
+  "Zen"
+]

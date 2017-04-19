@@ -1,0 +1,18 @@
+"*":
+  core:
+    telemetryConsent: "limited"
+  editor:
+    fontSize: 18
+  "exception-reporting":
+    userId: "7a8bdf06-4e8f-48df-a033-d870305454c9"
+  "linter-ui-default":
+    showPanel: true
+  "markdown-preview-enhanced":
+    previewTheme: "atom-dark-syntax"
+  "package-sync":
+    createOnChange: true
+  runner:
+    extensions:
+      py: "python"
+  welcome:
+    showOnStartup: false
