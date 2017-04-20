@@ -12,5 +12,10 @@
 
 atom.commands.add 'atom-text-editor', 'custom:add-code-newline', ->
   editor = atom.workspace.getActiveTextEditor()
-  editor.insertText(" {16G1}\n")
-  
+  code_newline = atom.config.get('editor.code_newline')
+  editor.insertText(" #{code_newline}\n")
+
+atom.commands.add 'atom-text-editor', 'custom:copy-code-newline', ->
+  editor = atom.workspace.getActiveTextEditor()
+  code_newline = editor.getSelectedText()
+  atom.config.set('editor.code_newline',code_newline)
