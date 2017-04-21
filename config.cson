@@ -1,5 +1,9 @@
 "*":
   core:
+    disabledPackages: [
+      "terminal-plus"
+      "atom-terminal"
+    ]
     packagesWithKeymapsDisabled: [
       "markdown-preview"
     ]
@@ -15,6 +19,7 @@
     previewTheme: "atom-dark-syntax"
   "package-sync":
     createOnChange: true
+    forceOverwrite: true
   runner:
     extensions:
       py: "python"
