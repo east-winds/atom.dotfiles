@@ -12,10 +12,13 @@ packages: [
   "linter-chktex"
   "linter-ui-default"
   "markdown-preview-enhanced"
+  "markdown-writer"
   "open-terminal-here"
   "package-sync"
   "script"
   "sourcerer"
   "terminal-plus"
+  "tool-bar"
+  "tool-bar-markdown-writer"
   "Zen"
 ]
