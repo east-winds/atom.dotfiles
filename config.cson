@@ -1,21 +1,28 @@
 "*":
+  "character-table":
+    enableCharacterMnemonics: true
   core:
     disabledPackages: [
       "terminal-plus"
       "atom-terminal"
+      "character-table"
     ]
     packagesWithKeymapsDisabled: [
       "markdown-preview"
     ]
     telemetryConsent: "limited"
   editor:
-    fontSize: 18
+    code_newline: "{15D8}"
+    fontSize: 16
   "exception-reporting":
     userId: "7a8bdf06-4e8f-48df-a033-d870305454c9"
   "linter-ui-default":
+    panelHeight: 26
     showPanel: true
+  "markdown-preview": {}
   "markdown-preview-enhanced":
     enableZenMode: true
+    orientation: "landscape"
     previewTheme: "atom-dark-syntax"
   "package-sync":
     createOnChange: true
@@ -23,5 +30,7 @@
   runner:
     extensions:
       py: "python"
+  "tool-bar":
+    visible: false
   welcome:
     showOnStartup: false

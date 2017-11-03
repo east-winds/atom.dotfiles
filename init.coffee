@@ -19,3 +19,21 @@ atom.commands.add 'atom-text-editor', 'custom:copy-code-newline', ->
   editor = atom.workspace.getActiveTextEditor()
   code_newline = editor.getSelectedText()
   atom.config.set('editor.code_newline',code_newline)
+
+atom.commands.add 'atom-text-editor', 'custom:print-rightarrow', ->
+  editor = atom.workspace.getActiveTextEditor()?.insertText('→')
+
+atom.commands.add 'atom-text-editor', 'custom:print-leftarrow', ->
+  editor = atom.workspace.getActiveTextEditor()?.insertText('←')
+
+atom.commands.add 'atom-text-editor', 'custom:print-downarrow', ->
+  editor = atom.workspace.getActiveTextEditor()?.insertText('↓')
+
+atom.commands.add 'atom-text-editor', 'custom:print-uparrow', ->
+  editor = atom.workspace.getActiveTextEditor()?.insertText('↑')
+
+atom.commands.add 'atom-text-editor', 'custom:print-dblrightarrow', ->
+  editor = atom.workspace.getActiveTextEditor()?.insertText('⇒')
+
+atom.commands.add 'atom-text-editor', 'custom:print-dblleftarrow', ->
+  editor = atom.workspace.getActiveTextEditor()?.insertText('⇐')

@@ -30,3 +30,42 @@ atom-text-editor {
 atom-text-editor .cursor {
   // border-color: red;
 }
+
+
+/*
+ * markdown-preview-enhanced custom style
+ */
+.markdown-preview-enhanced.markdown-preview-enhanced {
+  // please write your custom style here
+  // eg:
+  //  color: blue;          // change font color
+  //  font-size: 14px;      // change font size
+  //
+
+  // custom pdf output style
+  @media print {
+    font-size: 18px;
+  }
+
+  // custom prince pdf export style
+  &.prince {
+
+  }
+
+  // custom phantomjs png/jpeg export style
+  &.phantomjs-image {
+
+  }
+
+  //custom phantomjs pdf export style
+  &.phantomjs-pdf {
+
+  }
+
+  // custom presentation style
+  .preview-slides .slide,
+  &[data-presentation-mode] {
+    // eg
+    // background-color: #000;
+  }
+}

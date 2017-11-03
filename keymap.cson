@@ -36,6 +36,12 @@
 
 'atom-text-editor':
   'ctrl-enter': 'custom:add-code-newline'
+  'ctrl-alt-left': 'custom:print-leftarrow'
+  'ctrl-alt-right': 'custom:print-rightarrow'
+  'ctrl-alt-up': 'custom:print-uparrow'
+  'ctrl-alt-down': 'custom:print-downarrow'
+  'shift-ctrl-alt-left': 'custom:print-dblleftarrow'
+  'shift-ctrl-alt-right': 'custom:print-dblrightarrow'
 
 'atom-workspace atom-text-editor:not([mini])':
   'alt-shift-down': 'editor:add-selection-below'
