@@ -14,6 +14,8 @@
   editor:
     code_newline: "{15D8}"
     fontSize: 16
+    softTabs: false
+    tabType: "hard"
   "exception-reporting":
     userId: "7a8bdf06-4e8f-48df-a033-d870305454c9"
   "linter-ui-default":
