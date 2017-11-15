@@ -36,6 +36,7 @@
 
 'atom-text-editor':
   'ctrl-enter': 'custom:add-code-newline'
+  'ctrl-shift-c': 'custom:copy-code-newline'
   'ctrl-alt-left': 'custom:print-leftarrow'
   'ctrl-alt-right': 'custom:print-rightarrow'
   'ctrl-alt-up': 'custom:print-uparrow'
@@ -46,7 +47,7 @@
 'atom-workspace atom-text-editor:not([mini])':
   'alt-shift-down': 'editor:add-selection-below'
   'alt-shift-up': 'editor:add-selection-above'
-  
+
 # Default Keymaps for Markdown Writer
 # https://atom.io/packages/markdown-writer
 #

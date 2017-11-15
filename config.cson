@@ -12,10 +12,9 @@
     ]
     telemetryConsent: "limited"
   editor:
-    code_newline: "{15D8}"
+    code_newline: "(p. 452-3)"
     fontSize: 16
     softTabs: false
-    tabType: "hard"
   "exception-reporting":
     userId: "7a8bdf06-4e8f-48df-a033-d870305454c9"
   "linter-ui-default":
@@ -26,6 +25,8 @@
     enableZenMode: true
     orientation: "landscape"
     previewTheme: "atom-dark-syntax"
+  "markdown-writer":
+    tableExtraPipes: true
   "package-sync":
     createOnChange: true
     forceOverwrite: true
