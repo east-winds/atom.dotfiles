@@ -13,7 +13,7 @@
     telemetryConsent: "limited"
   editor:
     code_newline: "(p. 77)"
-    fontSize: 16
+    fontSize: 15
     softTabs: false
     tabType: "hard"
   "exception-reporting":
@@ -36,3 +36,6 @@
     visible: false
   welcome:
     showOnStartup: false
+".null-grammar.plain.text":
+  whitespace:
+    removeTrailingWhitespace: false
