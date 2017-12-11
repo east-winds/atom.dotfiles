@@ -17,6 +17,7 @@ packages: [
   "package-sync"
   "script"
   "sourcerer"
+  "split-diff"
   "tabs-to-spaces"
   "terminal-plus"
   "tool-bar"
