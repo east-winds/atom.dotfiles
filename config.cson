@@ -12,8 +12,8 @@
     ]
     telemetryConsent: "limited"
   editor:
-    code_newline: "(p. 77)"
-    fontSize: 15
+    code_newline: "{16J6}"
+    fontSize: 16
     softTabs: false
     tabType: "hard"
   "exception-reporting":

@@ -41,10 +41,22 @@ atom-text-editor .cursor {
   //  color: blue;          // change font color
   //  font-size: 14px;      // change font size
 
+  // remove space between line and lists
   p { margin-bottom: 0; }
   p + p { margin-top: 15px;}
 
-	font-size: 18px;
+  // remove space between sub-lists
+  ul { margin-bottom: 0; }
+  ul + p { margin-top: 15px;}
+
+  // remove space between sub-lists
+  ol { margin-bottom: 0; }
+  ol + p { margin-top: 15px;}
+
+  // remove space when finishing sub-list
+  li > ul + p {margin: 0px;}
+
+  font-size: 18px;
 
 
   // custom pdf output style
