@@ -8,3 +8,4 @@ storage
 packages/
 atom-shell/
 split-diff/*
+recovery/*
