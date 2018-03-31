@@ -30,6 +30,7 @@
   "markdown-preview-enhanced":
     enableZenMode: true
     marginsType: "minimum margin"
+    pandocMarkdownFlavor: "gfm"
     previewTheme: "github-dark.css"
   "package-sync":
     createOnChange: true
