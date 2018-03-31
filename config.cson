@@ -1,4 +1,9 @@
 "*":
+  "atom-latex":
+    build_after_save: false
+    compiler: "xelatex"
+    latexmk_param: "-synctex=1 -file-line-error -pdf -xelatex"
+    toolchain: "latexmk toolchain"
   "character-table":
     enableCharacterMnemonics: true
   core:
@@ -19,13 +24,13 @@
   "exception-reporting":
     userId: "7a8bdf06-4e8f-48df-a033-d870305454c9"
   "linter-ui-default":
-    panelHeight: 26
+    panelHeight: 3
     showPanel: true
   "markdown-preview": {}
   "markdown-preview-enhanced":
     enableZenMode: true
-    orientation: "landscape"
-    previewTheme: "atom-dark-syntax"
+    marginsType: "minimum margin"
+    previewTheme: "github-dark.css"
   "package-sync":
     createOnChange: true
     forceOverwrite: true

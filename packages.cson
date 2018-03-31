@@ -1,4 +1,5 @@
 packages: [
+  "atom-latex"
   "atom-terminal"
   "build"
   "build-make"
