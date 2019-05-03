@@ -4,6 +4,9 @@
     compiler: "xelatex"
     latexmk_param: "-synctex=1 -file-line-error -pdf -xelatex"
     toolchain: "latexmk toolchain"
+  "autocomplete-plus":
+    confirmCompletion: "tab"
+    enableAutoActivation: false
   "character-table":
     enableCharacterMnemonics: true
   core:
@@ -17,21 +20,23 @@
     ]
     telemetryConsent: "limited"
   editor:
-    code_newline: "{16J6}"
+    code_newline: "{A,#2,p.19} "
     fontSize: 16
     softTabs: false
     tabType: "hard"
   "exception-reporting":
     userId: "7a8bdf06-4e8f-48df-a033-d870305454c9"
   "linter-ui-default":
-    panelHeight: 3
-    showPanel: true
+    panelHeight: 2775
   "markdown-preview": {}
   "markdown-preview-enhanced":
     enableZenMode: true
     marginsType: "minimum margin"
-    pandocMarkdownFlavor: "gfm"
+    pandocArguments: "--smart"
+    pandocMarkdownFlavor: "markdown"
     previewTheme: "github-dark.css"
+  "markdown-writer":
+    siteImagesDir: "images/"
   "package-sync":
     createOnChange: true
     forceOverwrite: true

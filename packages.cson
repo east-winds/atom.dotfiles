@@ -27,5 +27,6 @@ packages: [
   "terminal-plus"
   "tool-bar"
   "tool-bar-markdown-writer"
+  "wordcount"
   "Zen"
 ]
