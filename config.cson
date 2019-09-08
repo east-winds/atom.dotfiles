@@ -14,14 +14,15 @@
       "terminal-plus"
       "atom-terminal"
       "character-table"
+      "open-path"
     ]
     packagesWithKeymapsDisabled: [
       "markdown-preview"
     ]
     telemetryConsent: "limited"
   editor:
-    code_newline: "{A,#2,p.19} "
-    fontSize: 16
+    code_newline: "{19A4}"
+    fontSize: 18
     softTabs: false
     tabType: "hard"
   "exception-reporting":
@@ -30,9 +31,9 @@
     panelHeight: 2775
   "markdown-preview": {}
   "markdown-preview-enhanced":
-    enableZenMode: true
+    latexEngine: "xelatex"
     marginsType: "minimum margin"
-    pandocArguments: "--smart"
+    pandocArguments: "--pdf-engine=xelatex"
     pandocMarkdownFlavor: "markdown"
     previewTheme: "github-dark.css"
   "markdown-writer":
@@ -45,6 +46,8 @@
       py: "python"
   "tool-bar":
     visible: false
+  "tree-view":
+    hideVcsIgnoredFiles: true
   welcome:
     showOnStartup: false
 ".null-grammar.plain.text":
