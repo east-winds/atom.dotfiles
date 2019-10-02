@@ -1,4 +1,9 @@
 "*":
+  "atom-latex":
+    build_after_save: false
+    compiler: "xelatex"
+    latexmk_param: "-synctex=1 -file-line-error -pdf -xelatex"
+    toolchain: "latexmk toolchain"
   "autocomplete-plus":
     confirmCompletion: "tab"
     enableAutoActivation: false
@@ -9,28 +14,30 @@
       "terminal-plus"
       "atom-terminal"
       "character-table"
+      "open-path"
     ]
     packagesWithKeymapsDisabled: [
       "markdown-preview"
     ]
     telemetryConsent: "limited"
   editor:
-    code_newline: "{18A5}"
-    fontSize: 17
+    code_newline: "{19A4}"
+    fontSize: 18
     softTabs: false
     tabType: "hard"
   "exception-reporting":
     userId: "7a8bdf06-4e8f-48df-a033-d870305454c9"
   "linter-ui-default":
-    panelHeight: 1
+    panelHeight: 2775
   "markdown-preview": {}
   "markdown-preview-enhanced":
-    enableZenMode: true
-    exportPDFPageFormat: "A5"
-    mermaidTheme: "dark"
-    orientation: "landscape"
+    latexEngine: "xelatex"
+    marginsType: "minimum margin"
+    pandocArguments: "--pdf-engine=xelatex"
+    pandocMarkdownFlavor: "markdown"
     previewTheme: "github-dark.css"
-    revealjsTheme: "black.css"
+  "markdown-writer":
+    siteImagesDir: "images/"
   "package-sync":
     createOnChange: true
     forceOverwrite: true
@@ -39,6 +46,8 @@
       py: "python"
   "tool-bar":
     visible: false
+  "tree-view":
+    hideVcsIgnoredFiles: true
   welcome:
     showOnStartup: false
 ".null-grammar.plain.text":

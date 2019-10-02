@@ -10,4 +10,5 @@ atom-shell/
 split-diff/*
 recovery/*
 
-.atom-socket-secret-michd-1.40.0
+.atom*
+

@@ -1,4 +1,5 @@
 packages: [
+  "atom-latex"
   "atom-terminal"
   "build"
   "build-make"
@@ -6,6 +7,7 @@ packages: [
   "busy-signal"
   "character-table"
   "graphviz-preview-plus"
+  "hyperclick"
   "intentions"
   "language-dot"
   "language-gams"
@@ -17,8 +19,10 @@ packages: [
   "linter-ui-default"
   "markdown-preview-enhanced"
   "markdown-writer"
+  "open-path"
   "open-terminal-here"
   "package-sync"
+  "pdf-view"
   "script"
   "sourcerer"
   "split-diff"
@@ -26,5 +30,6 @@ packages: [
   "terminal-plus"
   "tool-bar"
   "tool-bar-markdown-writer"
+  "wordcount"
   "Zen"
 ]
