@@ -1,4 +1,7 @@
 "*":
+  "autocomplete-plus":
+    confirmCompletion: "tab"
+    enableAutoActivation: false
   "character-table":
     enableCharacterMnemonics: true
   core:
@@ -12,20 +15,22 @@
     ]
     telemetryConsent: "limited"
   editor:
-    code_newline: "{16J6}"
-    fontSize: 16
+    code_newline: "{18A5}"
+    fontSize: 17
     softTabs: false
     tabType: "hard"
   "exception-reporting":
     userId: "7a8bdf06-4e8f-48df-a033-d870305454c9"
   "linter-ui-default":
-    panelHeight: 26
-    showPanel: true
+    panelHeight: 1
   "markdown-preview": {}
   "markdown-preview-enhanced":
     enableZenMode: true
+    exportPDFPageFormat: "A5"
+    mermaidTheme: "dark"
     orientation: "landscape"
-    previewTheme: "atom-dark-syntax"
+    previewTheme: "github-dark.css"
+    revealjsTheme: "black.css"
   "package-sync":
     createOnChange: true
     forceOverwrite: true
