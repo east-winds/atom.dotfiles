@@ -29,6 +29,7 @@
     userId: "7a8bdf06-4e8f-48df-a033-d870305454c9"
   "linter-ui-default":
     panelHeight: 2775
+    showPanel: true
   "markdown-preview": {}
   "markdown-preview-enhanced":
     latexEngine: "xelatex"

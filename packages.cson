@@ -28,8 +28,6 @@ packages: [
   "split-diff"
   "tabs-to-spaces"
   "terminal-plus"
-  "tool-bar"
-  "tool-bar-markdown-writer"
   "wordcount"
   "Zen"
 ]
