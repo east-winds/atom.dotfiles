@@ -51,6 +51,8 @@
     hideVcsIgnoredFiles: true
   welcome:
     showOnStartup: false
+  whitespace:
+    ensureSingleTrailingNewline: false
 ".null-grammar.plain.text":
   whitespace:
     removeTrailingWhitespace: false
