@@ -15,6 +15,12 @@
       "atom-terminal"
       "character-table"
       "open-path"
+      "build"
+      "build-make"
+      "language-dot"
+      "linter-chktex"
+      "linter-spell"
+      "spell-check"
     ]
     packagesWithKeymapsDisabled: [
       "markdown-preview"
@@ -22,14 +28,18 @@
     telemetryConsent: "limited"
   editor:
     code_newline: "{19A4}"
-    fontSize: 18
+    fontSize: 19
     softTabs: false
     tabType: "hard"
   "exception-reporting":
     userId: "7a8bdf06-4e8f-48df-a033-d870305454c9"
+  "linter-spell":
+    defaultLanguages: [
+      "en_US"
+    ]
+    spellPath: "/usr/local/bin/hunspell"
   "linter-ui-default":
     panelHeight: 2775
-    showPanel: true
   "markdown-preview": {}
   "markdown-preview-enhanced":
     latexEngine: "xelatex"
@@ -42,13 +52,35 @@
   "package-sync":
     createOnChange: true
     forceOverwrite: true
+  "project-plus":
+    newWindow: true
+    notifications: false
+  "project-viewer":
+    disclaimer:
+      v140: false
   runner:
     extensions:
       py: "python"
+  "spell-check":
+    addKnownWords: true
+    knownWords: [
+      "textbox"
+      "TAs"
+      "RAs"
+      "anno"
+      "Gradescope"
+      "Mathworks"
+      "Geodata"
+      "bn"
+      "mn"
+      "bc"
+      "incl"
+      "incr"
+    ]
+    useLocales: false
   "tool-bar":
     visible: false
-  "tree-view":
-    hideVcsIgnoredFiles: true
+  "tree-view": {}
   welcome:
     showOnStartup: false
   whitespace:
