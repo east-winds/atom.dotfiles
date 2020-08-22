@@ -20,15 +20,14 @@
       "language-dot"
       "linter-chktex"
       "linter-spell"
-      "spell-check"
     ]
     packagesWithKeymapsDisabled: [
       "markdown-preview"
     ]
     telemetryConsent: "limited"
   editor:
-    code_newline: "{19A4}"
-    fontSize: 19
+    code_newline: "{A2}"
+    fontSize: 20
     softTabs: false
     tabType: "hard"
   "exception-reporting":
@@ -40,6 +39,8 @@
     spellPath: "/usr/local/bin/hunspell"
   "linter-ui-default":
     panelHeight: 2775
+  "markdown-pdf":
+    format: "Letter"
   "markdown-preview": {}
   "markdown-preview-enhanced":
     latexEngine: "xelatex"
@@ -76,6 +77,8 @@
       "bc"
       "incl"
       "incr"
+      "Tecolote"
+      "reputational"
     ]
     useLocales: false
   "tool-bar":

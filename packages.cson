@@ -18,6 +18,7 @@ packages: [
   "linter-chktex"
   "linter-spell"
   "linter-ui-default"
+  "markdown-pdf"
   "markdown-preview-enhanced"
   "markdown-writer"
   "open-path"

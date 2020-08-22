@@ -34,7 +34,7 @@ atom-text-editor .cursor {
 
 /*
  * markdown-preview-enhanced custom style
- */
+*/
 .markdown-preview-enhanced.markdown-preview-enhanced {
   // please write your custom style here
   // eg:
@@ -88,4 +88,31 @@ atom-text-editor .cursor {
     // eg
     // background-color: #000;
   }
+}
+
+
+/*
+ * markdown-pdf convert stylesheet
+*/
+.markdown-body {
+	font-family: "Arial";
+	
+  // remove space between line and lists
+  p { margin-bottom: 0; }
+  p + p { margin-top: 15px;}
+
+  // remove space between sub-lists
+  ul { margin-bottom: 0; }
+  ul + p { margin-top: 15px;}
+
+  // remove space between sub-lists
+  ol { margin-bottom: 0; }
+  ol + p { margin-top: 15px;}
+
+  // remove space when finishing sub-list
+  li > ul + p {margin: 0px;}
+	li > li + p {margin: 0px;}
+	ul > ul + p {margin: 0px;}
+	ul > li + p {margin: 0px;}
+
 }
