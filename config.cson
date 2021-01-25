@@ -27,11 +27,13 @@
     telemetryConsent: "limited"
   editor:
     code_newline: "{A2}"
-    fontSize: 20
+    fontSize: 25
     softTabs: false
     tabType: "hard"
   "exception-reporting":
     userId: "7a8bdf06-4e8f-48df-a033-d870305454c9"
+  github:
+    remoteFetchProtocol: "ssh"
   "linter-spell":
     defaultLanguages: [
       "en_US"

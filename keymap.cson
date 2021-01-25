@@ -48,6 +48,12 @@
   'alt-shift-down': 'editor:add-selection-below'
   'alt-shift-up': 'editor:add-selection-above'
 
+'atom-workspace':
+  'ctrl-+': 'cursor-history:next'
+  'ctrl-_': 'cursor-history:prev'
+  'ctrl-=': 'cursor-history:next-within-editor'
+  'ctrl--': 'cursor-history:prev-within-editor'
+
 # Default Keymaps for Markdown Writer
 # https://atom.io/packages/markdown-writer
 #
