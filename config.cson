@@ -27,7 +27,7 @@
     telemetryConsent: "limited"
   editor:
     code_newline: "{A2}"
-    fontSize: 25
+    fontSize: 26
     softTabs: false
     tabType: "hard"
   "exception-reporting":
@@ -45,8 +45,10 @@
     format: "Letter"
   "markdown-preview": {}
   "markdown-preview-enhanced":
+    automaticallyShowPreviewOfMarkdownBeingEdited: false
     latexEngine: "xelatex"
     marginsType: "minimum margin"
+    openPreviewPaneAutomatically: false
     pandocArguments: "--pdf-engine=xelatex"
     pandocMarkdownFlavor: "markdown"
     previewTheme: "github-dark.css"
@@ -81,6 +83,8 @@
       "incr"
       "Tecolote"
       "reputational"
+      "recs"
+      "EVs"
     ]
     useLocales: false
   "tool-bar":
@@ -90,6 +94,8 @@
     showOnStartup: false
   whitespace:
     ensureSingleTrailingNewline: false
+  wordcount:
+    noextension: true
 ".null-grammar.plain.text":
   whitespace:
     removeTrailingWhitespace: false

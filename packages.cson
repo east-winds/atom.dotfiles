@@ -34,6 +34,7 @@ packages: [
   "split-diff"
   "tabs-to-spaces"
   "terminal-plus"
+  "title-case"
   "wordcount"
   "Zen"
 ]
